@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Login component enter username and password 1`] = `
+<div>
+  <form
+    method="post"
+    onSubmit={[Function]}
+  >
+    <input
+      id="username"
+      name="username"
+      type="text"
+    />
+    <input
+      id="password"
+      name="password"
+      type="password"
+    />
+    <button
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+  <input
+    id="dUserName"
+    name="dUserName"
+    type="text"
+    value=""
+  />
+  <input
+    id="dPassword"
+    name="dPassword"
+    type="text"
+    value=""
+  />
+</div>
+`;
