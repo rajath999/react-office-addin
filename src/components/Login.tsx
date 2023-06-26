@@ -1,3 +1,4 @@
+import { PrimaryButton } from "@fluentui/react";
 import React, { useState } from "react";
 // import {  } from "@assets/";
 
@@ -16,7 +17,7 @@ export const Login = () => {
       <form method="post" onSubmit={saveUserInfo}>
         <input type="text" name="username" id="username" />
         <input type="password" name="password" id="password" />
-        <button type="submit">Login</button>
+        <PrimaryButton type="submit">Login</PrimaryButton>
       </form>
       <input type="text" value={userName} name="dUserName" id="dUserName" />
       <input type="text" value={password} name="dPassword" id="dPassword" />

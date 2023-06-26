@@ -17,9 +17,31 @@ exports[`Testing the Login component enter username and password 1`] = `
       type="password"
     />
     <button
+      className="ms-Button ms-Button--primary root-109"
+      data-is-focusable={true}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      onKeyPress={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseUp={[Function]}
       type="submit"
     >
-      Login
+      <span
+        className="ms-Button-flexContainer flexContainer-110"
+        data-automationid="splitbuttonprimary"
+      >
+        <span
+          className="ms-Button-textContainer textContainer-111"
+        >
+          <span
+            className="ms-Button-label label-113"
+            id="id__0"
+          >
+            Login
+          </span>
+        </span>
+      </span>
     </button>
   </form>
   <input
